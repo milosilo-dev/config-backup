@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schemalist>
+
+    <schema id="org.gnome.shell.extensions.lilypad" path="/org/gnome/shell/extensions/lilypad/">
+
+        <key type="as" name="rightbox-order">
+            <default>['lilypad']</default>
+
+            <summary>Order of icons in rightbox</summary>
+        </key>
+
+        <key type="as" name="lilypad-order">
+            <default>[]</default>
+            <summary>Icons in collapsible Lilypad menu</summary>
+        </key>
+
+        <key type="as" name="ignored-order">
+            <default>[]</default>
+            <summary>Icons ignored by Lilypad</summary>
+        </key>
+
+        <key type="b" name="reorder">
+            <default>false</default>
+        </key>
+
+        <key type="b" name="show-icons">
+            <default>false</default>
+        </key>
+
+        <key name="auto-collapse" type="b">
+            <default>true</default>
+        </key>
+
+        <key name="auto-collapse-millisecond" type="i">
+            <default>1000</default>
+        </key>
+
+    </schema>
+</schemalist>
